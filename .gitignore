@@ -1,0 +1,45 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Environment files
+.env
+.env.local
+.env.*.local
+frontend/.env
+frontend/.env.*
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.eslintcache
+frontend/*.tsbuildinfo
+
+# Coverage / tests
+coverage/
+
+# .NET build artifacts
+backend/bin/
+backend/obj/
+*.user
+*.suo
+*.cache
+
+# IDE / Editor
+.vscode/
+.idea/
+*.code-workspace
+
+# OS specific
+desktop.ini
+
+# Docker
+**/.docker/
+
+
